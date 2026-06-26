@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <!-- ============================================================
+       META TAGS — SEO, REDES SOCIAIS E CONFIGURAÇÕES BÁSICAS
+       ============================================================ -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#B8956A" />
+
+  <title>Lumière Estética Avançada — Clínica de Estética Premium</title>
+  <meta name="description"
+    content="Clínica de estética premium especializada em tratamentos faciais, corporais e harmonização. Equipe médica certificada, tecnologia de ponta e ambiente acolhedor. Agende sua avaliação gratuita." />
+  <meta name="keywords"
+    content="clínica de estética, harmonização facial, limpeza de pele, drenagem linfática, radiofrequência, estética avançada" />
+  <meta name="author" content="Lumière Estética Avançada" />
+
+  <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Lumière Estética Avançada — Revele a sua versão mais radiante" />
+  <meta property="og:description"
+    content="Tratamentos estéticos premium com equipe médica certificada. Avaliação gratuita." />
+  <meta property="og:image" content="assets/img/og-cover.jpg" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Lumière Estética Avançada" />
+  <meta name="twitter:description" content="Onde ciência e sofisticação encontram a sua beleza natural." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E✨%3C/text%3E%3C/svg%3E" />
+
+  <!-- ============================================================
+       FONTES — GOOGLE FONTS (Playfair Display + Inter)
+       display=swap garante renderização rápida sem FOIT
+       ============================================================ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font Awesome 6 (ícones) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Folha de estilos principal -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+  <!-- ============================================================
+       HEADER / NAVEGAÇÃO FIXA
+       ============================================================ -->
+  <header class="header" id="header" role="banner">
+    <div class="container header__container">
+      <a href="#hero" class="logo" aria-label="Lumière Estética Avançada — Página inicial">
+        <i class="fa-solid fa-sparkles logo__icon" aria-hidden="true"></i>
+        <span class="logo__text">Lumière</span>
+      </a>
+
+      <nav class="nav" id="nav" role="navigation" aria-label="Menu principal">
+        <button class="nav__close" id="navClose" aria-label="Fechar menu">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+        <ul class="nav__list">
+          <li><a href="#hero" class="nav__link">Início</a></li>
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#servicos" class="nav__link">Serviços</a></li>
+          <li><a href="#resultados" class="nav__link">Resultados</a></li>
+          <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+        <a href="#contato" class="btn btn--primary nav__cta">Agendar Avaliação</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO SECTION
+         ============================================================ -->
+    <section class="hero" id="hero">
+      <!-- Elementos decorativos flutuantes -->
+      <div class="hero__decor hero__decor--1" aria-hidden="true"></div>
+      <div class="hero__decor hero__decor--2" aria-hidden="true"></div>
+      <div class="hero__decor hero__decor--3" aria-hidden="true"></div>
+
+      <div class="container hero__container">
+        <div class="hero__content reveal">
+          <span class="eyebrow">
+            <i class="fa-solid fa-sparkles" aria-hidden="true"></i>
+            Clínica de Estética Premium
+          </span>
+          <h1 class="hero__title">Revele a Sua Versão Mais <em>Radiante</em></h1>
+          <p class="hero__subtitle">
+            Tratamentos estéticos exclusivos, realizados por uma equipe médica certificada,
+            com tecnologia de ponta e um cuidado que vai muito além da pele.
+          </p>
+
+          <div class="hero__ctas">
+            <a href="#contato" class="btn btn--primary btn--large">
+              Agendar Avaliação Gratuita
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a href="#servicos" class="btn btn--outline btn--large">Conhecer Tratamentos</a>
+          </div>
+
+          <div class="hero__trust">
+            <div class="trust__item">
+              <i class="fa-solid fa-users" aria-hidden="true"></i>
+              <span><strong>+ 5.000</strong> clientes atendidas</span>
+            </div>
+            <div class="trust__item">
+              <i class="fa-solid fa-award" aria-hidden="true"></i>
+              <span><strong>12 anos</strong> de experiência</span>
+            </div>
+            <div class="trust__item">
+              <i class="fa-solid fa-user-doctor" aria-hidden="true"></i>
+              <span><strong>Equipe</strong> especializada</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__media reveal" style="--reveal-delay: 200ms;">
+          <div class="hero__image-wrap">
+            <img src="assets/img/hero.jpg" alt="Mulher recebendo tratamento facial em ambiente clínico premium"
+              class="hero__image" loading="eager" fetchpriority="high" />
+          </div>
+          <div class="hero__badge">
+            <i class="fa-solid fa-certificate" aria-hidden="true"></i>
+            <div>
+              <strong>Certificada</strong>
+              <span>CRM &amp; Anvisa</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Indicador de scroll sutil -->
+      <a href="#sobre" class="hero__scroll" aria-label="Rolar para próxima seção">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============================================================
+         SOBRE A CLÍNICA
+         ============================================================ -->
+    <section class="sobre section" id="sobre">
+      <div class="container sobre__container">
+        <div class="sobre__media reveal">
+          <!-- PLACEHOLDER — Substituir por foto interna da clínica -->
+          <img src="assets/img/sobre1.jpg" alt="Interior elegante e acolhedor da clínica Lumière" class="sobre__image"
+            loading="lazy" />
+          <!-- PLACEHOLDER — Foto secundária empilhada -->
+          <img src="assets/img/sobre2.jpg" alt="Detalhe de tratamento estético profissional"
+            class="sobre__image sobre__image--small" loading="lazy" />
+          <div class="sobre__years" aria-hidden="true">
+            <strong>12</strong>
+            <span>anos cuidando<br />da sua beleza</span>
+          </div>
+        </div>
+
+        <div class="sobre__content reveal" style="--reveal-delay: 150ms;">
+          <span class="eyebrow eyebrow--line">Sobre Nós</span>
+          <h2 class="section__title">Onde Ciência e Sofisticação Encontram a Sua <em>Beleza Natural</em></h2>
+
+          <p class="sobre__text">
+            Na Lumière, acreditamos que a verdadeira beleza nasce do equilíbrio entre cuidado científico,
+            ambiente acolhedor e respeito pela individualidade de cada cliente. Há mais de uma década,
+            unimos protocolos exclusivos e tecnologia de ponta para entregar resultados reais.
+          </p>
+          <p class="sobre__text">
+            Cada tratamento é desenhado sob medida, conduzido por profissionais certificados, em um
+            espaço pensado para que você se sinta em casa — e saia se sentindo extraordinária.
+          </p>
+
+          <ul class="sobre__features">
+            <li>
+              <i class="fa-solid fa-user-doctor" aria-hidden="true"></i>
+              <div>
+                <strong>Equipe médica certificada</strong>
+                <span>Profissionais com formação contínua e credenciamento oficial.</span>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-microscope" aria-hidden="true"></i>
+              <div>
+                <strong>Tecnologia de última geração</strong>
+                <span>Equipamentos importados, sempre atualizados.</span>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-leaf" aria-hidden="true"></i>
+              <div>
+                <strong>Protocolos exclusivos</strong>
+                <span>Combinações desenvolvidas pela nossa equipe clínica.</span>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-gem" aria-hidden="true"></i>
+              <div>
+                <strong>Ambiente premium e acolhedor</strong>
+                <span>Cada detalhe pensado para o seu bem-estar.</span>
+              </div>
+            </li>
+          </ul>
+
+          <!-- Stats com contador animado via JS -->
+          <div class="stats">
+            <div class="stat">
+              <strong class="stat__number" data-target="12">0</strong>
+              <span class="stat__suffix">+</span>
+              <span class="stat__label">Anos de experiência</span>
+            </div>
+            <div class="stat">
+              <strong class="stat__number" data-target="5000">0</strong>
+              <span class="stat__suffix">+</span>
+              <span class="stat__label">Clientes atendidas</span>
+            </div>
+            <div class="stat">
+              <strong class="stat__number" data-target="98">0</strong>
+              <span class="stat__suffix">%</span>
+              <span class="stat__label">Índice de satisfação</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVIÇOS / TRATAMENTOS
+         ============================================================ -->
+    <section class="servicos section section--alt" id="servicos">
+      <div class="container">
+        <header class="section__header reveal">
+          <span class="eyebrow eyebrow--center">Nossos Tratamentos</span>
+          <h2 class="section__title section__title--center">Tratamentos Sob Medida para a Sua <em>Beleza</em></h2>
+          <p class="section__lead">
+            Protocolos exclusivos que combinam ciência, tecnologia e o olhar atento de
+            quem entende que cada rosto, cada corpo, tem sua história.
+          </p>
+        </header>
+
+        <div class="servicos__grid">
+
+          <!-- Card 1 — Limpeza de Pele -->
+          <article class="card-servico reveal">
+            <div class="card-servico__media">
+              <!-- PLACEHOLDER — Substituir por foto real do tratamento -->
+              <img src="assets/img/servico1.jpg" alt="Limpeza de pele profunda sendo realizada" loading="lazy" />
+            </div>
+            <div class="card-servico__body">
+              <span class="card-servico__icon"><i class="fa-solid fa-droplet" aria-hidden="true"></i></span>
+              <h3 class="card-servico__title">Limpeza de Pele Profunda</h3>
+              <p class="card-servico__desc">Higienização avançada que remove impurezas, desobstrui poros e devolve viço
+                à pele.</p>
+              <a href="#contato" class="card-servico__link">Saiba mais <i class="fa-solid fa-arrow-right"
+                  aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <!-- Card 2 — Harmonização Facial -->
+          <article class="card-servico reveal" style="--reveal-delay: 80ms;">
+            <div class="card-servico__media">
+              <img src="assets/img/servico2.jpg" alt="Procedimento de harmonização facial" loading="lazy" />
+            </div>
+            <div class="card-servico__body">
+              <span class="card-servico__icon"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i></span>
+              <h3 class="card-servico__title">Harmonização Facial</h3>
+              <p class="card-servico__desc">Realce dos seus traços naturais com técnicas minimamente invasivas e
+                resultados sutis.</p>
+              <a href="#contato" class="card-servico__link">Saiba mais <i class="fa-solid fa-arrow-right"
+                  aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <!-- Card 3 — Drenagem Linfática -->
+          <article class="card-servico reveal" style="--reveal-delay: 160ms;">
+            <div class="card-servico__media">
+              <img src="assets/img/servico3.jpg" alt="Sessão de drenagem linfática" loading="lazy" />
+            </div>
+            <div class="card-servico__body">
+              <span class="card-servico__icon"><i class="fa-solid fa-hand-holding-heart" aria-hidden="true"></i></span>
+              <h3 class="card-servico__title">Drenagem Linfática</h3>
+              <p class="card-servico__desc">Massagem técnica que reduz retenção, melhora circulação e desincha o corpo.
+              </p>
+              <a href="#contato" class="card-servico__link">Saiba mais <i class="fa-solid fa-arrow-right"
+                  aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <!-- Card 4 — Peeling Químico -->
+          <article class="card-servico reveal" style="--reveal-delay: 240ms;">
+            <div class="card-servico__media">
+              <img src="assets/img/servico4.jpg" alt="Aplicação de peeling químico facial" loading="lazy" />
+            </div>
+            <div class="card-servico__body">
+              <span class="card-servico__icon"><i class="fa-solid fa-flask" aria-hidden="true"></i></span>
+              <h3 class="card-servico__title">Peeling Químico</h3>
+              <p class="card-servico__desc">Renovação celular profunda para uniformizar tom, atenuar manchas e suavizar
+                linhas.</p>
+              <a href="#contato" class="card-servico__link">Saiba mais <i class="fa-solid fa-arrow-right"
+                  aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <!-- Card 5 — Radiofrequência -->
+          <article class="card-servico reveal" style="--reveal-delay: 320ms;">
+            <div class="card-servico__media">
+              <img src="assets/img/servico5.jpg" alt="Sessão de radiofrequência facial" loading="lazy" />
+            </div>
+            <div class="card-servico__body">
+              <span class="card-servico__icon"><i class="fa-solid fa-wave-square" aria-hidden="true"></i></span>
+              <h3 class="card-servico__title">Radiofrequência</h3>
+              <p class="card-servico__desc">Estímulo de colágeno para firmeza, contorno e efeito lifting sem cirurgia.
+              </p>
+              <a href="#contato" class="card-servico__link">Saiba mais <i class="fa-solid fa-arrow-right"
+                  aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <!-- Card 6 — Massagem Modeladora -->
+          <article class="card-servico reveal" style="--reveal-delay: 400ms;">
+            <div class="card-servico__media">
+              <img src="assets/img/servico6.jpg" alt="Massagem modeladora corporal" loading="lazy" />
+            </div>
+            <div class="card-servico__body">
+              <span class="card-servico__icon"><i class="fa-solid fa-spa" aria-hidden="true"></i></span>
+              <h3 class="card-servico__title">Massagem Modeladora</h3>
+              <p class="card-servico__desc">Manobras vigorosas que reduzem medidas, modelam silhueta e combatem gordura
+                localizada.</p>
+              <a href="#contato" class="card-servico__link">Saiba mais <i class="fa-solid fa-arrow-right"
+                  aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         RESULTADOS / GALERIA
+         ============================================================ -->
+    <section class="resultados section" id="resultados">
+      <div class="container">
+        <header class="section__header reveal">
+          <span class="eyebrow eyebrow--center">Prova Social</span>
+          <h2 class="section__title section__title--center">Resultados que <em>Falam por Si</em></h2>
+          <p class="section__lead">
+            Cada transformação carrega uma história. Aqui estão algumas delas — reais,
+            conquistadas com dedicação e tecnologia.
+          </p>
+        </header>
+
+        <div class="galeria">
+          <!-- Item 1 -->
+           <figure class="galeria__item galeria__item--tall reveal" style="--reveal-delay: 300ms;">
+            <img src="assets/img/results1.jpg" alt="Resultado corporal — modelagem" loading="lazy" />
+            <span class="galeria__badge">Antes &amp; Depois</span>
+            <figcaption class="galeria__caption">
+              <span>Harmonização Facial</span>
+            </figcaption>
+          </figure>
+
+         
+
+          <!-- Item 2 -->
+          <figure class="galeria__item reveal" style="--reveal-delay: 100ms;">
+            <img src="assets/img/results2.jpg" alt="Resultado de limpeza de pele profunda" loading="lazy" />
+            <span class="galeria__badge">Antes &amp; Depois</span>
+            <figcaption class="galeria__caption">
+              <span>Limpeza de Pele</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 3 -->
+          <figure class="galeria__item reveal" style="--reveal-delay: 200ms;">
+            <img src="assets/img/results3.jpg" alt="Resultado de peeling químico" loading="lazy" />
+            <span class="galeria__badge">Antes &amp; Depois</span>
+            <figcaption class="galeria__caption">
+              <span>Peeling Químico</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 4 -->
+          <video class="galeria__item galeria__item--tall reveal" autoplay loop muted playsinline>
+            <source src="assets/video/massage.mp4" type="video/mp4" />
+            Seu navegador não suporta vídeo HTML5.
+          </video>          
+
+          <!-- Item 5 -->
+          <figure class="galeria__item reveal" style="--reveal-delay: 400ms;">
+            <img src="assets/img/results4.jpg" alt="Resultado de radiofrequência facial" loading="lazy" />
+            <span class="galeria__badge">Antes &amp; Depois</span>
+            <figcaption class="galeria__caption">
+              <span>Radiofrequência</span>
+            </figcaption>
+          </figure>
+
+          <!-- Item 6 -->
+          <figure class="galeria__item reveal" style="--reveal-delay: 500ms;">
+            <img src="assets/img/results5.jpg" alt="Resultado de drenagem linfática" loading="lazy" />
+            <span class="galeria__badge">Antes &amp; Depois</span>
+            <figcaption class="galeria__caption">
+              <span>Drenagem Linfática</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DEPOIMENTOS — CARROSSEL
+         ============================================================ -->
+    <section class="depoimentos section" id="depoimentos">
+      <div class="container">
+        <header class="section__header reveal">
+          <span class="eyebrow eyebrow--center">Depoimentos</span>
+          <h2 class="section__title section__title--center">Histórias Reais de <em>Transformação</em></h2>
+        </header>
+
+        <div class="carrossel reveal" id="carrossel" aria-roledescription="carrossel"
+          aria-label="Depoimentos de clientes">
+
+          <button class="carrossel__nav carrossel__nav--prev" id="carrosselPrev" aria-label="Depoimento anterior">
+            <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+          </button>
+
+          <div class="carrossel__viewport">
+            <div class="carrossel__track" id="carrosselTrack">
+
+              <!-- Slide 1 -->
+              <article class="depoimento" aria-roledescription="slide">
+                <i class="fa-solid fa-quote-left depoimento__quote" aria-hidden="true"></i>
+                <p class="depoimento__texto">
+                  A Lumière mudou a forma como me enxergo no espelho. O cuidado da equipe,
+                  a delicadeza nos detalhes — tudo me fez sentir única. Os resultados superaram
+                  todas as minhas expectativas.
+                </p>
+                <div class="depoimento__rating" aria-label="5 de 5 estrelas">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="depoimento__autor">
+                  <img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80&auto=format&fit=crop"
+                    alt="Foto de Mariana Costa" loading="lazy" />
+                  <div>
+                    <strong>Mariana Costa</strong>
+                    <span>Harmonização Facial</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Slide 2 -->
+              <article class="depoimento" aria-roledescription="slide">
+                <i class="fa-solid fa-quote-left depoimento__quote" aria-hidden="true"></i>
+                <p class="depoimento__texto">
+                  Em três meses de tratamento, recuperei a autoestima que achei que tinha perdido.
+                  A equipe é técnica, mas sobretudo humana. Saio de cada sessão renovada.
+                </p>
+                <div class="depoimento__rating" aria-label="5 de 5 estrelas">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="depoimento__autor">
+                  <img
+                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80&auto=format&fit=crop"
+                    alt="Foto de Beatriz Almeida" loading="lazy" />
+                  <div>
+                    <strong>Beatriz Almeida</strong>
+                    <span>Radiofrequência Facial</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Slide 3 -->
+              <article class="depoimento" aria-roledescription="slide">
+                <i class="fa-solid fa-quote-left depoimento__quote" aria-hidden="true"></i>
+                <p class="depoimento__texto">
+                  Já fui em várias clínicas, mas a Lumière é outro nível. Desde a recepção
+                  até o pós-tratamento, tudo é pensado para te fazer sentir cuidada. Recomendo de olhos fechados.
+                </p>
+                <div class="depoimento__rating" aria-label="5 de 5 estrelas">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="depoimento__autor">
+                  <img
+                    src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200&q=80&auto=format&fit=crop"
+                    alt="Foto de Camila Rodrigues" loading="lazy" />
+                  <div>
+                    <strong>Camila Rodrigues</strong>
+                    <span>Drenagem &amp; Modelagem</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Slide 4 -->
+              <article class="depoimento" aria-roledescription="slide">
+                <i class="fa-solid fa-quote-left depoimento__quote" aria-hidden="true"></i>
+                <p class="depoimento__texto">
+                  Confiei minha pele à Lumière depois de anos lutando com acne. Hoje, minha
+                  pele tem viço, textura e luminosidade que eu nem lembrava. Gratidão eterna.
+                </p>
+                <div class="depoimento__rating" aria-label="5 de 5 estrelas">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="depoimento__autor">
+                  <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&q=80&auto=format&fit=crop"
+                    alt="Foto de Juliana Mendes" loading="lazy" />
+                  <div>
+                    <strong>Juliana Mendes</strong>
+                    <span>Peeling &amp; Limpeza de Pele</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Slide 5 -->
+              <article class="depoimento" aria-roledescription="slide">
+                <i class="fa-solid fa-quote-left depoimento__quote" aria-hidden="true"></i>
+                <p class="depoimento__texto">
+                  O atendimento é impecável. A profissional ouviu cada detalhe das minhas
+                  preocupações e desenhou um plano sob medida. Resultado natural, exatamente
+                  como eu queria.
+                </p>
+                <div class="depoimento__rating" aria-label="5 de 5 estrelas">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <div class="depoimento__autor">
+                  <img
+                    src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80&auto=format&fit=crop"
+                    alt="Foto de Renata Souza" loading="lazy" />
+                  <div>
+                    <strong>Renata Souza</strong>
+                    <span>Harmonização Facial</span>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+          </div>
+
+          <button class="carrossel__nav carrossel__nav--next" id="carrosselNext" aria-label="Próximo depoimento">
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </button>
+
+          <div class="carrossel__dots" id="carrosselDots" role="tablist" aria-label="Selecionar depoimento">
+            <!-- Dots gerados via JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CTA INTERMEDIÁRIO — Gatilho de Escassez
+         ============================================================ -->
+    <section class="cta-banner" aria-labelledby="ctaTitle">
+      <div class="container cta-banner__container reveal">
+        <div class="cta-banner__content">
+          <span class="eyebrow eyebrow--light">
+            <i class="fa-solid fa-hourglass-half" aria-hidden="true"></i>
+            Vagas Limitadas
+          </span>
+          <h2 class="cta-banner__title" id="ctaTitle">
+            Apenas <em>10 vagas</em> para Avaliação Gratuita este mês
+          </h2>
+          <p class="cta-banner__text">
+            Reserve seu horário com nossa equipe especializada e descubra o protocolo ideal para você — sem compromisso.
+          </p>
+        </div>
+        <a href="#contato" class="btn btn--white btn--large">
+          Garantir Minha Vaga
+          <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTATO
+         ============================================================ -->
+    <section class="contato section" id="contato">
+      <div class="container contato__container">
+        <div class="contato__info reveal">
+          <span class="eyebrow eyebrow--line">Fale Conosco</span>
+          <h2 class="section__title">Vamos Conversar sobre a <em>Sua Beleza</em></h2>
+          <p class="contato__lead">
+            Estamos prontas para te receber. Preencha o formulário ao lado ou
+            entre em contato pelos canais abaixo.
+          </p>
+
+          <ul class="contato__lista">
+            <li>
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              <div>
+                <strong>Endereço</strong>
+                <span>Av. das Acácias, 1240 — Jardim Europa<br />São Paulo / SP — CEP 01448-000</span>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+              <div>
+                <strong>Telefone</strong>
+                <a href="tel:+551133334444">(11) 3333-4444</a>
+              </div>
+            </li>
+            <li>
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+              <div>
+                <strong>WhatsApp</strong>
+                <a href="https://wa.me/5511999998888" target="_blank" rel="noopener">(11) 99999-8888</a>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              <div>
+                <strong>E-mail</strong>
+                <a href="mailto:contato@lumiereestetica.com.br">contato@lumiereestetica.com.br</a>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              <div>
+                <strong>Horário</strong>
+                <span>Segunda a sexta: 9h às 20h<br />Sábado: 9h às 17h</span>
+              </div>
+            </li>
+          </ul>
+
+          <!-- Imagem decorativa da fachada -->
+          <div class="contato__fachada">
+            <img src="assets/img/fachada.jpg" alt="Fachada da clínica Lumière" loading="lazy" />
+          </div>
+        </div>
+
+        <div class="contato__form-wrap reveal" style="--reveal-delay: 150ms;">
+          <form class="form" id="contatoForm" novalidate>
+            <h3 class="form__title">Solicite sua avaliação gratuita</h3>
+            <p class="form__sub">Resposta em até 24h úteis. Sua privacidade é prioridade.</p>
+
+            <div class="form__field">
+              <label for="fNome">Nome completo *</label>
+              <input type="text" id="fNome" name="nome" autocomplete="name" required />
+              <span class="form__error" data-for="fNome"></span>
+            </div>
+
+            <div class="form__row">
+              <div class="form__field">
+                <label for="fEmail">E-mail *</label>
+                <input type="email" id="fEmail" name="email" autocomplete="email" required />
+                <span class="form__error" data-for="fEmail"></span>
+              </div>
+              <div class="form__field">
+                <label for="fTel">WhatsApp *</label>
+                <input type="tel" id="fTel" name="telefone" inputmode="numeric" placeholder="(00) 00000-0000"
+                  maxlength="15" required />
+                <span class="form__error" data-for="fTel"></span>
+              </div>
+            </div>
+
+            <div class="form__field">
+              <label for="fTratamento">Tratamento de interesse</label>
+              <select id="fTratamento" name="tratamento">
+                <option value="">Selecione uma opção...</option>
+                <option>Limpeza de Pele Profunda</option>
+                <option>Harmonização Facial</option>
+                <option>Drenagem Linfática</option>
+                <option>Peeling Químico</option>
+                <option>Radiofrequência</option>
+                <option>Massagem Modeladora</option>
+                <option>Outro / Avaliação geral</option>
+              </select>
+            </div>
+
+            <div class="form__field">
+              <label for="fMensagem">Mensagem (opcional)</label>
+              <textarea id="fMensagem" name="mensagem" rows="4"
+                placeholder="Conte-nos um pouco sobre o que você busca..."></textarea>
+            </div>
+
+            <label class="form__check">
+              <input type="checkbox" id="fLgpd" required />
+              <span>Autorizo o contato da Lumière conforme a <a href="#" target="_blank" rel="noopener">Política de
+                  Privacidade</a>.</span>
+            </label>
+            <span class="form__error" data-for="fLgpd"></span>
+
+            <button type="submit" class="btn btn--primary btn--large btn--block">
+              Solicitar Agendamento
+              <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+            </button>
+
+            <p class="form__seguranca">
+              <i class="fa-solid fa-lock" aria-hidden="true"></i>
+              Seus dados são protegidos pela LGPD e jamais compartilhados.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       RODAPÉ
+       ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__container">
+
+      <div class="footer__col footer__col--brand">
+        <a href="#hero" class="logo logo--footer">
+          <i class="fa-solid fa-sparkles logo__icon" aria-hidden="true"></i>
+          <span class="logo__text">Lumière</span>
+        </a>
+        <p>
+          Clínica de estética premium dedicada a revelar a sua melhor versão —
+          com ciência, sofisticação e o cuidado que você merece.
+        </p>
+        <div class="social">
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i
+              class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i
+              class="fa-brands fa-tiktok"></i></a>
+          <a href="https://wa.me/5511999998888" target="_blank" rel="noopener" aria-label="WhatsApp"><i
+              class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#hero">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#resultados">Resultados</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Tratamentos</h4>
+        <ul>
+          <li><a href="#servicos">Limpeza de Pele</a></li>
+          <li><a href="#servicos">Harmonização Facial</a></li>
+          <li><a href="#servicos">Drenagem Linfática</a></li>
+          <li><a href="#servicos">Peeling Químico</a></li>
+          <li><a href="#servicos">Radiofrequência</a></li>
+          <li><a href="#servicos">Massagem Modeladora</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>Contato</h4>
+        <ul class="footer__contato">
+          <li><i class="fa-solid fa-location-dot"></i> Av. das Acácias, 1240 — São Paulo / SP</li>
+          <li><i class="fa-solid fa-phone"></i> (11) 3333-4444</li>
+          <li><i class="fa-brands fa-whatsapp"></i> (11) 99999-8888</li>
+          <li><i class="fa-solid fa-envelope"></i> contato@lumiereestetica.com.br</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© <span id="year">2026</span> Lumière Estética Avançada · Desenvolvido com <span aria-label="amor">💛</span>
+        </p>
+        <p>
+          <a href="#">Política de Privacidade</a>
+          <span aria-hidden="true">·</span>
+          <a href="#">Termos de Uso</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante de WhatsApp -->
+  <a href="https://wa.me/5511999998888" target="_blank" rel="noopener" class="whatsapp-float"
+    aria-label="Falar no WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+    <span class="whatsapp-float__pulse" aria-hidden="true"></span>
+  </a>
+
+  <!-- Botão voltar ao topo -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Toast (feedback do formulário) -->
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <i class="fa-solid fa-circle-check"></i>
+    <div>
+      <strong>Solicitação enviada!</strong>
+      <span>Entraremos em contato em até 24h úteis.</span>
+    </div>
+  </div>
+
+  <!-- Overlay para menu mobile -->
+  <div class="nav__overlay" id="navOverlay"></div>
+
+  <script src="assets/js/script.js" defer></script>
+</body>
+
+</html>
